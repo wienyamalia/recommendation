@@ -10,8 +10,8 @@ app.listen(PORT, () => {
 });
 
 //configuration database
-const db = new Sequelize('recommendation', 'root', '', {
-    host: 'localhost', //sql instance public IP
+const db = new Sequelize('recommendation', 'root', '123', {
+    host: '34.28.108.156', //sql instance public IP
     dialect: 'mysql'
 });
 
